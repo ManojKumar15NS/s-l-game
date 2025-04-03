@@ -1,50 +1,84 @@
-# React + TypeScript + Vite
+# 🎲 Ladder and Snake Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A classic **Ladder and Snake** board game built using **React + TypeScript + Vite**. The game is interactive, fun, and fully responsive!
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🔗 Play Now](https://ladderandsnakegame.netlify.app/)
 
-## Expanding the ESLint configuration
+## 🛠️ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- 🎲 Classic ladder and snake gameplay
+- 🔥 Fast & optimized with **React + Vite**
+- 🎨 Interactive UI with animations
+- 📱 Fully responsive design
+- ⚡ Hot Module Replacement (HMR) for fast development
 
-- Configure the top-level `parserOptions` property like this:
+## 📂 Project Structure
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+ladder-and-snake-game/
+│-- public/
+│-- src/
+│   │-- components/
+│   │-- assets/
+│   │-- App.tsx
+│   │-- main.tsx
+│-- .eslintrc.js
+│-- tsconfig.json
+│-- vite.config.ts
+│-- package.json
+│-- README.md
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 🏗️ Installation & Setup
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to run the project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### 1️⃣ Clone the repository
+
+```sh
+git clone https://github.com/ManojKumar15NS/s-l-game.git
+cd s-l-game
 ```
+
+### 2️⃣ Install dependencies
+
+```sh
+yarn install  # or npm install
+```
+
+### 3️⃣ Run the development server
+
+```sh
+yarn dev  # or npm run dev
+```
+
+The app will be running at `http://localhost:5173/` by default.
+
+## 🔧 Build for Production
+
+To create an optimized production build:
+
+```sh
+yarn build  # or npm run build
+```
+
+## 🛠️ Tech Stack
+
+- **React** + **TypeScript**
+- **Vite** for fast development
+- **ESLint** + **Prettier** for code formatting
+- **CSS Modules / Tailwind CSS** (if applicable)
+
+## 🤝 Contributing
+
+Feel free to fork this repo, submit issues, or contribute by making a pull request!
+
+## 📜 License
+
+This project is licensed under the MIT License. See `LICENSE` for details.
+
+---
+
+Enjoy playing Ladder and Snake! 🐍🚀
