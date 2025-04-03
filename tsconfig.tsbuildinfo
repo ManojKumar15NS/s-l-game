@@ -1,0 +1,1 @@
+{"root":["./src/App.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/Dice.tsx","./src/components/Game.tsx","./src/components/GameBoard.tsx","./src/components/GameInfo.tsx","./src/components/GameSetup.tsx","./src/components/PlayerToken.tsx","./src/context/GameContext.tsx","./src/types/index.ts","./src/utils/boardUtils.ts","./vite.config.ts"],"version":"5.6.3"}
